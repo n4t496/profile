@@ -1,0 +1,59 @@
+body {
+  background-color: #bcdbdf;
+  font-family: Arial, sans-serif;
+  color: #a26ea1;
+  font-size: 0.8em;
+}
+
+h1{
+  color: #db3b61;
+  font-family: 'PT Sans', sans-serif;;
+}
+
+h2{
+  color: #db3b61;
+  font-family: 'PT Sans', sans-serif;;
+  font-size: 2em;
+  line-height: 30px;
+}
+
+h4{
+  color: #df0054;
+  font-family: 'PT Sans', sans-serif;;
+  font-size: 2em;
+  line-height: 30px
+}
+
+a{
+  color: #232931;
+  text-decoration: none;
+}
+
+a:hover{
+  background-color: #f7f7f7;
+}
+
+img{
+  width: 300px;
+  height: auto;
+  border-radius:50%;
+}
+
+@media (max-width: 960px) {
+.container{
+  width: 800px;
+}
+
+.card{
+  width: 900px;
+  margin: 0 auto;
+}
+
+.card-white {
+  background: #fd0054;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+
+
+
